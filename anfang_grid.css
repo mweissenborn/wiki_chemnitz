@@ -1,0 +1,52 @@
+.infobox_chemnitz{
+    display: grid;
+    --grid-cols: var(--grid-cols, 1fr);
+    grid-template-columns: var(--grid-cols);
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #72777D;
+    
+}
+.infobox_header_row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#27292D;
+    height: 50px;
+    justify-items: center;
+    align-items: center;
+}
+.infobox_row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    border-bottom: 1px solid #202122;
+    border-top: 1px solid #202122;
+    justify-items: left;
+    font-size: 0.8rem ;
+    padding: 0 10px 0 10px;
+    gap: 20px;
+}
+.infobox_row span{
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+.infobox_header_basis_row{
+    display: grid;
+    background-color:#27292D;
+    height: 50px;
+    justify-items: center;
+    align-items: center;
+}
+.infobox_header_lage_row{
+    display: grid;
+    background-color:#27292D;
+    height: 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+
+/* *{ 
+    border: 1px solid red;
+}  */

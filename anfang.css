@@ -1,0 +1,54 @@
+
+.titel_chemnitz{
+    font-size: 1.8rem;
+    line-height: 0.1;
+}
+.untertitel_h1{
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+.anfang_text{
+    margin-top: 40px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+.chemnitz_grid{
+   display: grid;
+   grid-template-columns: 1fr;
+    max-width: 360px;
+    margin: auto;
+}
+
+.img_1{
+    width: 150px;
+    height: 180px;
+       }
+.img_2{
+    width: 150px;
+    height: 180px;
+       }
+.img_3{
+    width: 100%;
+    height: auto;
+    max-width: 340px;
+       }
+.tabelle_1_basis table{
+    border: 1px solid #72777D;
+    border-collapse: collapse;
+    width: 100%;
+    z-index: 2;
+}
+.tabelle_1_basis td{
+    padding: 4px 6px;
+    vertical-align: top;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    
+}
+.tabelle_1_basis th{
+    background-color:#202122;
+
+}
+.tabelle_1_basis tr{
+border: 1px solid #202122;
+}
