@@ -45,7 +45,20 @@
     justify-items: center;
     align-items: center;
 }
-
+.chemnitz_img_container{
+display: grid;
+--grid-cols: var(--grid-cols, 1fr);
+grid-template-columns: var(--grid-cols);
+align-items: center;
+justify-content: center;
+margin-top: 15px;
+}
+.chemnitz_img_container p{
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    line-height: 1.4;
+}
 
 /* *{ 
     border: 1px solid red;
