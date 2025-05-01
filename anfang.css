@@ -15,7 +15,7 @@
 .chemnitz_grid{
    display: grid;
    grid-template-columns: 1fr;
-    max-width: 360px;
+    max-width: 340px;
     margin: auto;
 }
 
@@ -31,24 +31,5 @@
     width: 100%;
     height: auto;
     max-width: 340px;
+    margin-top: 20px;
        }
-.tabelle_1_basis table{
-    border: 1px solid #72777D;
-    border-collapse: collapse;
-    width: 100%;
-    z-index: 2;
-}
-.tabelle_1_basis td{
-    padding: 4px 6px;
-    vertical-align: top;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    
-}
-.tabelle_1_basis th{
-    background-color:#202122;
-
-}
-.tabelle_1_basis tr{
-border: 1px solid #202122;
-}

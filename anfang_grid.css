@@ -5,7 +5,9 @@
     align-items: center;
     justify-content: center;
     border: 1px solid #72777D;
-    
+    max-width: 100%;
+    width: calc(100% - 20px);
+    margin: 0 auto;
 }
 .infobox_header_row{
     display: grid;
@@ -24,7 +26,7 @@
     justify-items: left;
     font-size: 0.8rem ;
     padding: 0 10px 0 10px;
-    gap: 20px;
+    
 }
 .infobox_row span{
     font-weight: 400;
@@ -44,6 +46,18 @@
     height: 50px;
     justify-items: center;
     align-items: center;
+    align-content: center;
+}
+.infobox_chemnitz_lage{
+    display: grid;
+    --grid-cols: var(--grid-cols, 1fr);
+    grid-template-columns: var(--grid-cols);
+    align-items: center;
+    justify-content: center;
+   
+    max-width: 100%;
+    width: calc(100% - 20px);
+    margin: 0 auto;   
 }
 .chemnitz_img_container{
 display: grid;
@@ -53,13 +67,28 @@ align-items: center;
 justify-content: center;
 margin-top: 15px;
 }
+.chemnitz_img_container img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 .chemnitz_img_container p{
     display: grid;
     align-items: center;
     justify-content: left;
     line-height: 1.4;
+    padding: 0 3px;
+    text-align: left;
+    font-size: 0.9rem;
+    margin-top: 4px;
 }
-
-/* *{ 
+.chemnitz_img_container picture{
+    margin: 15px 0;
+}
+h2{
+    font-size: 1rem;
+}
+/* *{
     border: 1px solid red;
 }  */
