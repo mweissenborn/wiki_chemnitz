@@ -61,14 +61,16 @@
 }
 .chemnitz_img_container{
 display: grid;
---grid-cols: var(--grid-cols, 1fr);
-grid-template-columns: var(--grid-cols);
+grid-template-columns: 1fr;
 align-items: center;
 justify-content: center;
+justify-items: center;
+width: calc(100% - 20px);
 margin-top: 15px;
+
 }
 .chemnitz_img_container img{
-    width: 100%;
+    width: calc(100% - 20px);
     max-width: 100%;
     height: auto;
     display: block;
@@ -82,9 +84,11 @@ margin-top: 15px;
     text-align: left;
     font-size: 0.9rem;
     margin-top: 4px;
+    color: gray;
 }
 .chemnitz_img_container picture{
-    margin: 15px 0;
+    margin-top: 15px;
+  
 }
 h2{
     font-size: 1rem;
