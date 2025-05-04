@@ -35,3 +35,6 @@
     max-width: 340px;
     margin-top: 20px;
        }
+.side_nav{
+    display: none;
+}

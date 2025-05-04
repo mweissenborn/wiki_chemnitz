@@ -1,0 +1,36 @@
+:root {
+    --nav-width: 0px;
+}
+@media (min-width: 664px) {
+    .chemnitz_grid {
+        display: grid;
+        grid-template-columns:2fr 1fr;
+        grid-template-areas:
+        "text_1 text_1"
+        "text_2 infobox"
+        "text_2 bilder";
+        gap: var(--gap);
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .header_chemnitz_flex {
+        grid-area: text_1;
+        grid-column: 1 / -1;
+        width: 100%;
+        font-size: 0.7rem;
+    }
+    .anfang_text_2 {
+        grid-area: text_2;
+        font-size: 0.7rem;
+    }
+    .infobox_chemnitz {
+        grid-area: infobox;
+        margin: 0 20px;
+    }
+    .chemnitz_img_container {
+        grid-area: bilder;
+    }
+    .chemnitz_img_container{
+        margin: 20px 20px;
+    }
+}
